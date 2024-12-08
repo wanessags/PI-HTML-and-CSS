@@ -5,16 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Re Paros - Consertos de celulares </title>
-    <link rel="shortcut icon" href="img/logo.png">
+     <link rel="icon" type="image/x-icon" href="img/logo.png"> <!-- icon que define a página  -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
     <header>
         <nav>
-            <a class="logo" href="/"><img src="img/logo.png"></a>
-            <ul class="nav-lista">
+            <a class="logo" href="#inicio"><img src="img/logo.png"></a>
+            <ul class="nav__lista">
                 <li><a href="#inicio"> Inicío </a></li>
                 <li><a href="#servicos"> Serviços </a></li>
                 <li><a href="#avaliacao"> Avaliações </a></li>
@@ -24,47 +23,47 @@
         <!-- navegação  -->
     </header>
 
-    <main></main> 
+    <main id="inicio"></main> 
     <!-- tópico principal da página, imagem foi colocada no CSS -->
 
     <section id="servicos">
         <div class="container__servico">
-            <h1 class="heading"> Serviços </h1>
             <div class="box-container">
                 <div class="box">
                     <img src="img/iphoneconserto.jpg" alt="">
                     <h2> Conserto Iphone 11 Pro </h2>
-                    <p>Star TAC em 2022 , o  Iphone 11 Pro  (com seu toque inconfundível até hoje) e o Razr V3 em 2004 são alguns exemplos clássicos de celular Motorola que ficaram eternizados</p>
-                    <a href="#" class="btn"> Saiba mais</a>
+                    <p>Star TAC em 2020, o Samsung J4 Prime(com seu toque inconfundível até hoje). </p>
+                    <a href="https://wa.me/5511986164158?" class="btn"> Saiba mais </a>
                 </div>
 
                 <div class="box">
                     <img src="img/samsungconserto.jpg" alt="">
                     <h2> Conserto Samsung J4 Prime </h2>
-                    <p>Star TAC em 2020, o Samsung J4 Prime(com seu toque inconfundível até hoje) e o Razr V3 em 2004 são alguns exemplos clássicos de celular Motorola que ficaram eternizados</p>
-                    <a href="#" class="btn"> Saiba mais</a>
+                    <p>Star TAC em 2020, o Samsung J4 Prime(com seu toque inconfundível até hoje). </p>
+                    <a href="https://wa.me/5511986164158?" class="btn"> Saiba mais</a>
                 </div>
 
                 <div class="box">
                     <img src="img/motorlaconserto.jpg" alt="">
                     <h2> Motorola 0NE </h2>
-                    <p>Star TAC em 1996, o Hello Moto em 2001 (com seu toque inconfundível até hoje) e o Razr V3 em 2004 são alguns exemplos clássicos de celular Motorola que ficaram eternizados</p>
-                    <a href="#" class="btn"> Saiba mais</a>
+                    <p>Star TAC em 2020, o Samsung J4 Prime(com seu toque inconfundível até hoje). </p>
+                    <a href="https://wa.me/5511986164158?" class="btn"> Saiba mais</a>
                 </div>
 
                 <div class="box">
                     <img src="img/lgconserto.jpg" alt="">
                     <h2> Conserto LG K10</h2>
-                    <p>Star TAC em 2016, o LG K10 (com seu toque inconfundível até hoje) e o Razr V3 em 2004 são alguns exemplos clássicos de celular Motorola que ficaram eternizados</p>
-                    <a href="#" class="btn"> Saiba mais</a>
+                    <p>Star TAC em 2020, o Samsung J4 Prime(com seu toque inconfundível até hoje). </p>
+                    <a href="https://wa.me/5511986164158?" class="btn"> Saiba mais</a>
                 </div>
             </div>
         </div>
     </section>
+<!-- serviços  -->
 
-<!-- seção de serviços  -->
+<!-- avaliacao -->
 <section id="avaliacao">
-<div class="container-avaliacao">
+<div class="container__avaliacao">
     <div class="container__left">
         <img src="img/google ava.jpg" alt="Avaliação">
       <h1>Veja o que alguns clientes comentam sobre a gente. </h1>
@@ -74,14 +73,13 @@
       <p>
         Assim como esses clientes, você também pode nós avaliar após algum serviço.
       </p>
-      <button> Nos avalie também! :) </button>
+      <button class="botao__avaliacao"> <a href="https://www.google.com/maps/place/Centro+Universit%C3%A1rio+Senac+-+Santo+Amaro/@-23.669598,-46.7757085,13z/data=!4m12!1m2!2m1!1ssenac+maps!3m8!1s0x94ce5036539648d5:0x78501a72680ea23a!8m2!3d-23.669598!4d-46.6994908!9m1!1b1!15sCgpzZW5hYyBtYXBzIgOIAQGSAQp1bml2ZXJzaXR54AEA!16s%2Fg%2F121jytr5?entry=ttu&g_ep=EgoyMDI0MTIwMS4xIKXMDSoASAFQAw%3D%3D" target="_blank"> Nos avalie também! :) </a></button>
     </div>
     <div class="container__right">
       <div class="card">
         <img src="img/avatar1.jpg" alt="user" />
-        <div class="card__content">
-          <span><i class="ri-double-quotes-l"></i></span>
-          <div class="card__details">
+        <div class="container__cards">
+          <div class="container__detalhes">
             <img src="img/star.png" alt="estrela" class="star"/>
             <p>
               Adorei a experiência de conserto! A loja tem um atendimento excelente, os funcionários são super atenciosos e prontos para ajudar.
@@ -90,11 +88,11 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <img src="img/avatar2.jpg" alt="user" />
-        <div class="card__content">
-          <span><i class="ri-double-quotes-l"></i></span>
-          <div class="card__details">
+        <div class="container__cards">
+          <div class="container__detalhes">
             <img src="img/star.png" alt="estrela" class="star"/>
             <p>
               Show de bola o atendimento e os materiais usados no reparo. 
@@ -104,11 +102,11 @@
           </div>
         </div>
       </div>
+
       <div class="card">
         <img src="img/avatar3.jpg" alt="user" />
-        <div class="card__content">
-          <span><i class="ri-double-quotes-l"></i></span>
-          <div class="card__details">
+        <div class="container__cards">
+          <div class="container__detalhes">
             <img src="img/star.png" alt="estrela" />
             <p>
               Estou muito satisfeito com o atendimento e serviço dessa loja! Meu celular quebrou a tela e, além do preço ótimo para o conserto, o serviço foi feito com rapidez e qualidade. 
@@ -120,7 +118,8 @@
     </div>
   </div>
 </section> 
-  
+
+  <!-- contato -->
 <section id="contato">
     <div class="container__map">
         <div class="contato__map">
@@ -129,20 +128,20 @@
 
         <div class="container__contato">
             <h1> Entre em contato com a gente. </h1>
-            <form>
-                <input type="text" placeholder="Nome" class="container__contato__txt"/>
-                <input type="text" placeholder="Email" class="container__contato__txt" />
+            <form action="" method="post">
+                <input type="text" placeholder="Nome" class="container__contato__txt" required=""/>
+                <input type="text" placeholder="Email" class="container__contato__txt" required="" />
                 <textarea placeholder="Digite alguma sugestão" class="container__contato__textarea"></textarea>
-                <input type="submit" placeholder="Envie" class="container__contato__btn"/>
+                <button class="container__contato__btn">Enviar formulário </button>
             </form>
         </div>
     </div>
 </section>
-<!-- seção de contato com formulário -->
+<!-- contato com formulário -->
 
 
 <div class="wpp">
-    <a href="https://wa.me/5511986164158?" target="_blank"> <img src="img/wpp.png" width="75px" alt=""></a>
+    <a href="https://wa.me/5511986164158?" target="_blank"> <img src="img/wpp.png" width="75px" alt="" class="img_wpp"></a>
 </div>
 <!-- whatsapp fixo -->
 
